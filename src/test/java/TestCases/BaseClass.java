@@ -1,7 +1,6 @@
 package TestCases;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
@@ -25,8 +24,7 @@ public class BaseClass {
 		FileInputStream fis= new FileInputStream("exceldata.xlsx");
 		
 		wbook = new XSSFWorkbook(fis);
-		xsheet= wbook.getSheet("Sheet1");  //from sheet 1 need to reed data
-				
+		xsheet= wbook.getSheet("Sheet1");  //from sheet 1 need to reed data		
 	}
 	
 	@AfterTest

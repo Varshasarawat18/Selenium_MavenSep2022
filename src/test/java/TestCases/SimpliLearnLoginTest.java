@@ -45,7 +45,7 @@ public class SimpliLearnLoginTest extends BaseClass {
 
 		LoginPage lp = new LoginPage(driver);
 		lp.login(UserName, Password);
-		System.out.println("Test3 passed with reading date from excel 		and executed");
+		System.out.println("Test3 passed with reading date from excel and executed");
 
 	}
 	
