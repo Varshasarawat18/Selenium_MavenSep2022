@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="2" total="6" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-11T13:31:34 IST" name="Suite" finished-at="2022-09-11T13:34:02 IST" duration-ms="148080">
+  <suite started-at="2022-09-17T19:21:34 IST" name="Suite" finished-at="2022-09-17T19:26:31 IST" duration-ms="297145">
     <groups>
     </groups>
-    <test started-at="2022-09-11T13:31:34 IST" name="Test" finished-at="2022-09-11T13:34:02 IST" duration-ms="148080">
+    <test started-at="2022-09-17T19:21:34 IST" name="Test" finished-at="2022-09-17T19:26:31 IST" duration-ms="297145">
       <class name="TestCases.SimpliLearnLoginTest">
-        <test-method is-config="true" signature="TestDataSetup()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:31:34 IST" name="TestDataSetup" finished-at="2022-09-11T13:31:35 IST" duration-ms="1093" status="PASS">
+        <test-method is-config="true" signature="TestDataSetup()[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:21:34 IST" name="TestDataSetup" finished-at="2022-09-17T19:21:38 IST" duration-ms="3993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestDataSetup -->
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:31:35 IST" name="testSetup" finished-at="2022-09-11T13:31:41 IST" duration-ms="6009" status="PASS">
+        <test-method is-config="true" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:21:38 IST" name="testSetup" finished-at="2022-09-17T19:21:59 IST" duration-ms="21344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SimpliLearnLoginTest.Test1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="Test1()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:31:41 IST" name="Test1" finished-at="2022-09-11T13:32:04 IST" duration-ms="22212" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:21:59 IST" name="Test1" finished-at="2022-09-17T19:23:12 IST" duration-ms="73046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:32:04 IST" name="TearDown" finished-at="2022-09-11T13:32:04 IST" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:23:12 IST" name="TearDown" finished-at="2022-09-17T19:23:15 IST" duration-ms="2976" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:32:04 IST" name="testSetup" finished-at="2022-09-11T13:32:10 IST" duration-ms="5830" status="PASS">
+        <test-method is-config="true" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:23:15 IST" name="testSetup" finished-at="2022-09-17T19:23:35 IST" duration-ms="19597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SimpliLearnLoginTest.Test2(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:32:10 IST" name="Test2" finished-at="2022-09-11T13:32:35 IST" duration-ms="25415" status="PASS">
+        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:23:35 IST" name="Test2" finished-at="2022-09-17T19:24:48 IST" duration-ms="73325" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,37 +57,135 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:32:35 IST" name="TearDown" finished-at="2022-09-11T13:32:35 IST" duration-ms="154" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:24:48 IST" name="TearDown" finished-at="2022-09-17T19:24:49 IST" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:32:35 IST" name="testSetup" finished-at="2022-09-11T13:32:40 IST" duration-ms="4917" status="PASS">
+        <test-method is-config="true" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:24:49 IST" name="testSetup" finished-at="2022-09-17T19:25:11 IST" duration-ms="21541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.SimpliLearnLoginTest.Test3() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="Test3()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:32:40 IST" name="Test3" finished-at="2022-09-11T13:33:32 IST" duration-ms="51432" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:25:11 IST" name="Test3" finished-at="2022-09-17T19:26:30 IST" duration-ms="79604" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:33:32 IST" name="TearDown" finished-at="2022-09-11T13:33:32 IST" duration-ms="127" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:26:30 IST" name="TearDown" finished-at="2022-09-17T19:26:30 IST" duration-ms="107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="testDataCleanup()[pri:0, instance:TestCases.SimpliLearnLoginTest@3a44431a]" started-at="2022-09-11T13:34:02 IST" name="testDataCleanup" finished-at="2022-09-11T13:34:02 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testDataCleanup()[pri:0, instance:TestCases.SimpliLearnLoginTest@957e06]" started-at="2022-09-17T19:26:30 IST" name="testDataCleanup" finished-at="2022-09-17T19:26:31 IST" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataCleanup -->
       </class> <!-- TestCases.SimpliLearnLoginTest -->
       <class name="TestCases.HomeTest">
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:TestCases.HomeTest@6404f418]" started-at="2022-09-11T13:33:32 IST" name="testSetup" finished-at="2022-09-11T13:34:02 IST" duration-ms="30408" status="PASS">
+        <test-method is-config="true" signature="testSetup(java.lang.reflect.Method)[pri:0, instance:TestCases.HomeTest@437da279]" started-at="2022-09-17T19:26:30 IST" name="testSetup" finished-at="2022-09-17T19:26:30 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestCases.HomeTest.test1()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null
+at TestCases.BaseClass.testSetup(BaseClass.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="test1()[pri:0, instance:TestCases.HomeTest@6404f418]" started-at="2022-09-11T13:34:02 IST" name="test1" finished-at="2022-09-11T13:34:02 IST" duration-ms="2" status="PASS">
+        <test-method signature="test1()[pri:0, instance:TestCases.HomeTest@437da279]" started-at="2022-09-17T19:26:30 IST" name="test1" finished-at="2022-09-17T19:26:30 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null
+at TestCases.BaseClass.testSetup(BaseClass.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:816)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.HomeTest@6404f418]" started-at="2022-09-11T13:34:02 IST" name="TearDown" finished-at="2022-09-11T13:34:02 IST" duration-ms="124" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestCases.HomeTest@437da279]" started-at="2022-09-17T19:26:30 IST" name="TearDown" finished-at="2022-09-17T19:26:30 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->

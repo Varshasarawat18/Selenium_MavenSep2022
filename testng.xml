@@ -7,7 +7,6 @@
   <parameter name ="pwd" value="Abc@1234"/>
     <classes>
       <class name="TestCases.SimpliLearnLoginTest"/>
-       <class name="TestCases.HomeTest"/>
     </classes>
   </test> <!-- Test -->	
 </suite> <!-- Suite -->

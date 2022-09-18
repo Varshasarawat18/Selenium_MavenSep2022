@@ -5,9 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery.min.js"></script>
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -24,7 +23,6 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
-      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -109,12 +107,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.SimpliLearnLoginTest" hash-for-method="Test2">Test2</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.SimpliLearnLoginTest" hash-for-method="Test2(abc@xyz.com, Abc@1234)">Test2(abc@xyz.com, Abc@1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.HomeTest" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="TestCases.SimpliLearnLoginTest" hash-for-method="Test3">Test3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -144,24 +142,17 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Test2">
-                  </a> <!-- Test2 -->
+                  <a name="Test2(abc@xyz.com, Abc@1234)">
+                  </a> <!-- Test2(abc@xyz.com, Abc@1234) -->
                   <span class="method-name">Test2</span>
+                  <span class="parameters">(abc@xyz.com, Abc@1234)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestCases.HomeTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test1">
-                  </a> <!-- test1 -->
-                  <span class="method-name">test1</span>
+                  <a name="Test3">
+                  </a> <!-- Test3 -->
+                  <span class="method-name">Test3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -174,13 +165,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;uname&quot; value=&quot;abc@xyz.com&quot;/&gt;
+    &lt;parameter name=&quot;pwd&quot; value=&quot;Abc@1234&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestCases.SimpliLearnLoginTest&quot;/&gt;
-      &lt;class name=&quot;TestCases.BaseClass&quot;/&gt;
-      &lt;class name=&quot;TestCases.HomeTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -194,7 +185,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,22 +213,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Test2')
+data.setCell(0, 1, 'Test1')
 data.setCell(0, 2, 'TestCases.SimpliLearnLoginTest')
-data.setCell(0, 3, 22996);
+data.setCell(0, 3, 23927);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Test1')
+data.setCell(1, 1, 'Test3')
 data.setCell(1, 2, 'TestCases.SimpliLearnLoginTest')
-data.setCell(1, 3, 21206);
+data.setCell(1, 3, 22636);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test1')
-data.setCell(2, 2, 'TestCases.HomeTest')
-data.setCell(2, 3, 0);
+data.setCell(2, 1, 'Test2')
+data.setCell(2, 2, 'TestCases.SimpliLearnLoginTest')
+data.setCell(2, 3, 15356);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -264,49 +255,53 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">TestCases.SimpliLearnLoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">testSetup</span>
+              <div class="configuration-test before">
+                <span class="method-name">TestDataSetup</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">testSetup(public void TestCases.SimpliLearnLoginTest.Test1() throws java.lang.InterruptedException)</span>
+                <span class="method-start">791 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Test1</span>
-                <span class="method-start">8275 ms</span>
+                <span class="method-start">8375 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">29482 ms</span>
+                <span class="method-start">32302 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">testSetup</span>
-                <span class="method-start">29689 ms</span>
+                <span class="method-name">testSetup(public void TestCases.SimpliLearnLoginTest.Test2(java.lang.String,java.lang.String) throws java.lang...)</span>
+                <span class="method-start">33938 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Test2</span>
-                <span class="method-start">33665 ms</span>
+                <span class="method-name">Test2(abc@xyz.com, Abc@1234)</span>
+                <span class="method-start">39653 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">56661 ms</span>
+                <span class="method-start">55010 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestCases.HomeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">testSetup</span>
-                <span class="method-start">56806 ms</span>
+                <span class="method-name">testSetup(public void TestCases.SimpliLearnLoginTest.Test3() throws java.lang.InterruptedException)</span>
+                <span class="method-start">55118 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test1</span>
-                <span class="method-start">61333 ms</span>
+                <span class="method-name">Test3</span>
+                <span class="method-start">58642 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">TearDown</span>
-                <span class="method-start">61334 ms</span>
+                <span class="method-start">81278 ms</span>
               </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">testDataCleanup</span>
+                <span class="method-start">82645 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
-<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
