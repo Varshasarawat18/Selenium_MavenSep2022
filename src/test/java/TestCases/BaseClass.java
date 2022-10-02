@@ -21,7 +21,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
 public class BaseClass {
-	WebDriver driver;  //As webdriver is abstract class we cannot create
+	public static WebDriver driver;  //As webdriver is abstract class we cannot create
 	
 	XSSFWorkbook wbook;  //Using when we need to take input from xcel file and for that apache poi plugin is aslo added here 
 	XSSFSheet xsheet;

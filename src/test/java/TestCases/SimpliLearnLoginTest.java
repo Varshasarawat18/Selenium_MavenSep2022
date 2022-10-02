@@ -3,12 +3,15 @@ package TestCases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
 import Pages.LoginPage;
+
+@Listeners(ListenerExample.class)   // this is for listerexample class what it will do it always listerns to the class whenever run
 
 public class SimpliLearnLoginTest extends BaseClass {
 
